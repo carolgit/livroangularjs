@@ -1,0 +1,15 @@
+<!-- ng-app habilita o angular a mudar o comportamento das tags -->
+<html ng-app>
+	<head>
+		<title>Increment</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+		<!-- chamada controler -->
+		<script src="controller/generalController.js"></script>
+	 </head>
+	 <!-- ng-controller idica que todo elemento dentro daquela tag é controlador pelo controler de nome countController -->
+	 <body ng-controller="countController">
+	 	<a href ng-click="addOne()">Add 1</a>
+	 	<hr>
+	 	<p>Count value: {{counter}}</p>
+	 </body>
+ </html>

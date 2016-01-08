@@ -1,0 +1,16 @@
+<!-- ng-app habilita o angular a mudar o comportamento das tags -->
+<html ng-app>
+	<head>
+		<title>Lista de compras</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+	 </head>
+	 <body>
+	 	<!-- Exemplo DataBind(ligar input ao cabeçalho) -->
+	 	<!-- ng-model ligua elemento a uma variavel-->
+	 		Hello <input type="text" ng-model="yourName"/>
+			<hr/>
+			<!-- chamada de variavel -->
+			<h1>Hello {{yourName}}</h1>
+		<!-- End DataBind(ligar input ao cabeçalho) -->
+	 </body>
+ </html>

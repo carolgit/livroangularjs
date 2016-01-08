@@ -1,0 +1,14 @@
+<!-- ng-app habilita o angular a mudar o comportamento das tags -->
+<html ng-app>
+	<head>
+		<title>Loop</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+		<script src="controller/generalController.js"></script>
+	 </head>
+	 <body ng-controller="loopController">
+	 	<!-- ng-repeat loop like forEach -->
+	 	<ul>
+	 		<li ng-repeat="fruit in fruits">{{fruit}}</li>
+	 	</ul>
+	 </body>
+ </html>
